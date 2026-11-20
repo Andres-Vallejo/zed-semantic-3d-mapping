@@ -1,0 +1,4 @@
+-r training/requirements.txt
+numpy
+open3d
+# Install the matching pyzed wheel through the ZED SDK installer.

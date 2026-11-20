@@ -1,0 +1,94 @@
+[
+  {
+    "path": "geometry/consolidar_detecciones.py",
+    "sha256": "9ae3b82d8c11a60607c774aa0ecede7d3474ef334f94b96686a8fc1eaafe626b"
+  },
+  {
+    "path": "geometry/deteccion_obb.py",
+    "sha256": "54c99c41d2a11dc44d8124b106988805628817d8321da0a6359b44c58f2a885b"
+  },
+  {
+    "path": "geometry/extraer_frames_svo.py",
+    "sha256": "382f4b6937d07e14b80af7a4281e9852aa50d4bdc8b5dd7ad5b6d0061fcdaafb"
+  },
+  {
+    "path": "geometry/limpiar_mapa.py",
+    "sha256": "2e13459823ddb4868bd4b933ba5651547cb5e98c690bf2c2824e8c0d26586978"
+  },
+  {
+    "path": "geometry/limpieza_obb.py",
+    "sha256": "f998e2363c4f9650575cf3973d8184d53a00ecf5d19c33f22205c5ab2810d4c0"
+  },
+  {
+    "path": "geometry/mapeo_manual.py",
+    "sha256": "ccccb5f09f4bbd28534084788281a62c7de6d03cbdef6f6adc635703f24e775c"
+  },
+  {
+    "path": "geometry/mapeo_multivista.py",
+    "sha256": "053d2ea24d1a7838f1c8084ede8f714733dc39a49cdbac78c443244eb5756849"
+  },
+  {
+    "path": "geometry/recorte_mascara.py",
+    "sha256": "c2e8d1a10be4eb653e1ccbb799d3d1f9e9dd11b03470a1f756cc7999168863ef"
+  },
+  {
+    "path": "geometry/replay_svo.py",
+    "sha256": "7cc8fc4d9526af31f0ff2ddf10f2b110d111fe6a454dbac29c86731e3f299882"
+  },
+  {
+    "path": "geometry/revisar_mapa.py",
+    "sha256": "de456114d348c9299285489712949b85c78a6a7d0a0e9415e43e2520c736e4a4"
+  },
+  {
+    "path": "geometry/validar_dims.py",
+    "sha256": "a7b6501ad4109b18d4d281f5d49568f8ae97b0b0e226d4550338a71d18256ece"
+  },
+  {
+    "path": "geometry/video_demo.py",
+    "sha256": "edd953a2e365923a5dfefa0f9ee389f4c13e28baac07f78035575750fa5f5c6b"
+  },
+  {
+    "path": "geometry/vista_lado.py",
+    "sha256": "8166902cb436b23ae4fda94f32f7f36c38ac20c7682631e4bf2583fa63c5fbef"
+  },
+  {
+    "path": "training/scripts/export_model.py",
+    "sha256": "67097abea7984d252dc6b950d0c72c0abaed1ca6ccd6d70b1dca3b7ccd37f07a"
+  },
+  {
+    "path": "training/scripts/extract_frames_zed.py",
+    "sha256": "b5cf6cc5e8a2ed923a63f81b791df42589904e7e959bc4ef9e58c991a136c884"
+  },
+  {
+    "path": "training/scripts/labelme_to_yolo_seg.py",
+    "sha256": "e937eac6ad59cb5eb7ff387ee1e06e950603f221d3ab2cdf7fb93d82a6b34674"
+  },
+  {
+    "path": "training/scripts/make_contact_sheet.py",
+    "sha256": "6430b3d6fce865f622d3cc6b06d7e06fdb84e7e826fc1f34c22bcd167011093c"
+  },
+  {
+    "path": "training/scripts/predict.py",
+    "sha256": "cd84ad184844fc72039a120fd9c742e74bcf7a5439fa90bdb024f3c55fa14e12"
+  },
+  {
+    "path": "training/scripts/pseudo_label_to_labelme.py",
+    "sha256": "d5d3ced585dd2d61e272eb6dcb25671d694fac3fbbd15c6cbcb75a86f6ba8956"
+  },
+  {
+    "path": "training/scripts/split_dataset.py",
+    "sha256": "30c424dabddf683eeaa1b493300f521e0ab8dda22a6c6545a69ea8978c7e5e6b"
+  },
+  {
+    "path": "training/scripts/train.py",
+    "sha256": "50cd06fcacfeb8452735b68fb5921b9ae06ab99364387dadbaddc7b592eb58f0"
+  },
+  {
+    "path": "training/scripts/update_dataset_yaml.py",
+    "sha256": "c0cb70a645983a6f90ffea770c517794bcd3b72d7013e18332fb42d5bf84526c"
+  },
+  {
+    "path": "training/scripts/verify_env.py",
+    "sha256": "7a332ff0140a1460f408d1eb415219d5ee02731c9aa0455c3778396c7998d17f"
+  }
+]

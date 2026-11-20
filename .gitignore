@@ -1,0 +1,32 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+
+# Raw capture and generated reconstruction data
+*.svo
+*.svo2
+*.ply
+*.npz
+training/data/
+training/runs/
+training/source/
+training/exports/
+results/mapping/*-local.csv
+
+# Local editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+__MACOSX/
+
+# Large archives
+*.zip
+*.7z
+*.rar

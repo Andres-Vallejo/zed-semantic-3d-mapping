@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZED · Demostraciones del proyecto</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #101416; color: #e8eeee; }
+    body { max-width: 1120px; margin: 0 auto; padding: 40px 24px 60px; line-height: 1.65; }
+    a { color: #83d9c3; } h1 { line-height: 1.15; font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 16px; }
+    h2 { margin: 0 0 8px; font-size: 1.4rem; } p { max-width: 78ch; }
+    .eyebrow { color: #83d9c3; letter-spacing: .12em; font-size: .8rem; text-transform: uppercase; }
+    .intro { color: #b7c6c5; font-size: 1.1rem; } section { margin-top: 48px; }
+    video { width: 100%; max-height: 72vh; background: #000; border-radius: 6px; margin-top: 12px; }
+    footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid #34413e; color: #a9bab6; }
+  </style>
+</head>
+<body>
+  <div class="eyebrow">Universidad Nacional de Colombia · Proyecto académico en equipo</div>
+  <h1>Reconocer objetos.<br>Ubicarlos en un mapa 3D.</h1>
+  <p class="intro">Visión estéreo con ZED 2, reconocimiento con YOLO11 y procesamiento de nubes de puntos para explorar un laboratorio en tres dimensiones.</p>
+  <p><a href="../README.md">README en inglés</a> · <a href="README.es.md">Explicación en español</a></p>
+  <section>
+    <h2>Demostración completa</h2>
+    <p>Detecciones en la imagen, objetos consolidados sobre el mapa y vista superior del recorrido. Duración: 1 min 35 s.</p>
+    <video controls playsinline preload="metadata" poster="../media/final-poster.jpg"><source src="../media/demo-final.mp4" type="video/mp4">Tu navegador no puede reproducir este vídeo. <a href="../media/demo-final.mp4">Descargar MP4</a>.</video>
+  </section>
+  <section>
+    <h2>Detección y mapeo</h2>
+    <p>Vista ampliada de la cámara y de la escena reconstruida con cajas 3D. Duración: 1 min 35 s.</p>
+    <video controls playsinline preload="metadata" poster="../media/mapping-poster.jpg"><source src="../media/demo-mapping.mp4" type="video/mp4">Tu navegador no puede reproducir este vídeo. <a href="../media/demo-mapping.mp4">Descargar MP4</a>.</video>
+  </section>
+  <section>
+    <h2>Exploración de la reconstrucción</h2>
+    <p>Recorrido visual por la nube de puntos del laboratorio. Duración aproximada: 20 s.</p>
+    <video controls playsinline preload="metadata" poster="../media/reconstruction-poster.jpg"><source src="../media/reconstruction.mp4" type="video/mp4">Tu navegador no puede reproducir este vídeo. <a href="../media/reconstruction.mp4">Descargar MP4</a>.</video>
+  </section>
+  <footer>
+    <p>Autores: Andres Camilo Torres Cajamarca · Juan Camilo Gómez Robayo · Juan Andrés Vallejo Rozo.</p>
+    <p>Resultados de un prototipo offline. El vídeo muestra resultados procesados; su velocidad de reproducción no representa la velocidad de cálculo. Las dimensiones de las cajas son estimaciones geométricas.</p>
+  </footer>
+</body>
+</html>
